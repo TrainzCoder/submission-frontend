@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  @apply text-gray-600;
+  line-height: 150%;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 135%;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 135%;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 135%;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 135%;
+}
+
+@media screen and (max-width: 516px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+    
+  
+}
